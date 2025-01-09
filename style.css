@@ -9,6 +9,7 @@
     #29a9dc,
     rgb(39, 29, 227)
   );
+  
   display: flex;
   justify-content: center;
   align-content: center;
@@ -196,7 +197,7 @@ body{
   font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 body {
   font-family: Arial, sans-serif;
