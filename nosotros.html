@@ -4,64 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <nav class="navBarra" >
-        <div>
-         <a href="index.html" class="aBarra optionSelect" >Inicio</a>
-         <a href="nosotros.html" class="aBarra">Nosotros</a>
-         <a href="contacto.html" class="aBarra">Contactanos</a>
-        </div>     
- </nav>
- <main>
-  <section id="introduccion">
-      <h2>Introducción</h2>
-      <p>Bienvenidos a nuestro rincón de aventuras, donde la pasión por el desarrollo de software se fusiona con el amor por los viajes. Somos un grupo de desarrolladores que decidieron dejar de lado las pantallas y explorar el mundo, compartiendo nuestras experiencias a través de este blog. Aquí encontrarás relatos inspiradores, consejos prácticos y guías detalladas para que cada viajero, desde el aventurero novato hasta el explorador experimentado, pueda disfrutar al máximo de cada destino. Únete a nosotros en este viaje y descubre cómo la tecnología y los viajes pueden transformarse en una experiencia inolvidable.</p>
-  </section>
-
-  <section id="mision">
-      <h2>Nuestra Misión</h2>
-      <p>Nuestra misión es inspirar a los viajeros a explorar el mundo con confianza, ofreciendo contenido auténtico y útil que les permita descubrir destinos únicos y vivir experiencias memorables. A través de nuestras historias y consejos prácticos, queremos empoderar a cada lector para que se convierta en el protagonista de su propia aventura.</p>
-  </section>
-
-  <section id="vision">
-      <h2>Nuestra Visión</h2>
-      <p>Para el año 2028, nos visualizamos como el blog de viajes más influyente de Latinoamérica, reconocido por su contenido innovador y su capacidad para conectar a viajeros de todas partes. Aspiramos a ser la fuente de referencia para quienes buscan no solo información, sino también inspiración para explorar nuevas culturas y paisajes.</p>
-  </section>
-
-  <section id="equipo">
-      <h2>Nuestro Equipo</h2>
-      <div class="teamMember">
-          <img src="joha.jpg.jpeg" alt="Johana">
-          <p><strong>Johana Rincón</strong><br>Ingeniera en transición al desarrollo de software. Apasionada por la lectura y el conocimiento, amante de la gastronomía y la naturaleza.</p>
-      </div>
-      <div class="teamMember">
-          <img src="John.jpg" alt="John">
-          <p><strong>John Cruz</strong><br>Ingeniero Electrónico en transición al desarrollo de software. Destaca por su capacidad de análisis, proactividad, atención al detalle y trabajo en equipo.</p>
-      </div>
-      <div class="teamMember">
-          <img src="Pao.jpg" alt="Paola">
-          <p><strong>Paola Caballero</strong><br>Arquitecta en transición al desarrollo de software, apasionada por la resolución de problemas y afrontar retos creativos, amante de la naturaleza.</p>
-      </div>
-      <div class="teamMember">
-          <img src="yop.jpg" alt="Brenda">
-          <p><strong>Brenda Cubillos</strong><br>Terapeuta cardiorrespiratoria en transición al desarrollo de software. Enfocada a la innovación, mejora y aprendizaje continuo.</p>
-      </div>
-  </section>
-</main>
-
- <footer>
-         <h3> Viajes Divertidos </h3>
-    <div>
-      <ol>
-         <li>Brenda Cubillos | brenda@gmail.com </li>
-         <li>Johana Rincon | Joha@gmail.com </li>
-         <li>Paola Caballero | Pao@gmail.com </li>
-         <li>John Cruz | john@gmail.com </li>
-      </ol>
+<nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary fs-4 fw-lighter container-fluid" data-bs-theme="dark">
+    <div class="container-fluid ">
+        <a class="navbar-brand fs-3" href="#">Viajes con propósito</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
+<main>
+    <div class="container text-center">
+        <div class="row align-items-start">
+                <div class="col-md-2 d-flex align-items-center justify-content-center">
+                <div>Espacio para publicidad</div>
+            </div>
+            <div class="col-md-8">
+                <section id="introduccion">
+                    <h2>Introducción</h2>
+                    <p>Bienvenidos a nuestro rincón de aventuras, donde la pasión por el desarrollo de software se fusiona con el amor por los viajes. Somos un grupo de desarrolladores que decidieron dejar de lado las pantallas y explorar el mundo, compartiendo nuestras experiencias a través de este blog. Aquí encontrarás relatos inspiradores, consejos prácticos y guías detalladas para que cada viajero, desde el aventurero novato hasta el explorador experimentado, pueda disfrutar al máximo de cada destino. Únete a nosotros en este viaje y descubre cómo la tecnología y los viajes pueden transformarse en una experiencia inolvidable.</p>
+                </section>
 
- </footer>
+                <section id="mision">
+                    <h2>Nuestra Misión</h2><br>
+                    <p>Nuestra misión es inspirar a los viajeros a explorar el mundo con confianza, ofreciendo contenido auténtico y útil que les permita descubrir destinos únicos y vivir experiencias memorables. A través de nuestras historias y consejos prácticos, queremos empoderar a cada lector para que se convierta en el protagonista de su propia aventura.</p>
+                </section>
+
+                <section id="vision">
+                    <h2>Nuestra Visión</h2><br>
+                    <p>Para el año 2028, nos visualizamos como el blog de viajes más influyente de Latinoamérica, reconocido por su contenido innovador y su capacidad para conectar a viajeros de todas partes. Aspiramos a ser la fuente de referencia para quienes buscan no solo información, sino también inspiración para explorar nuevas culturas y paisajes.</p><br>
+                </section>
+                <section id="equipo">
+                    <h2>Nuestro Equipo</h2>
+                    <div class="teamMember">
+                        <img src="joha.jpg.jpeg" alt="Johana">
+                        <p><strong>Johana Rincón</strong><br>Ingeniera en transición al desarrollo de software. Apasionada por la lectura y el conocimiento, amante de la gastronomía y la naturaleza.</p>
+                    </div>
+                    <div class="teamMember">
+                        <img src="John.jpg" alt="John">
+                        <p><strong>John Cruz</strong><br>Ingeniero Electrónico en transición al desarrollo de software. Destaca por su capacidad de análisis, proactividad, atención al detalle y trabajo en equipo.</p>
+                    </div>
+                    <div class="teamMember">
+                        <img src="Pao.jpg" alt="Paola">
+                        <p><strong>Paola Caballero</strong><br>Arquitecta en transición al desarrollo de software, apasionada por la resolución de problemas y afrontar retos, amante de la naturaleza.</p>
+                    </div>
+                    <div class="teamMember">
+                        <img src="yop.jpg" alt="Brenda">
+                        <p><strong>Brenda Cubillos</strong><br>Terapeuta cardiorrespiratoria en transición al desarrollo de software. Enfocada a la innovación, mejora y aprendizaje continuo.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-2 d-flex align-items-center justify-content-center">
+                <div>Espacio para noticias</div>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+   <h3 class="text-center text-white">Viajes Con Propósito</h3>
+   <div class="text-center">
+       <ol class="list-unstyled text-white">
+           <li>Brenda Cubillos | brenda@gmail.com</li>
+           <li>Johana Rincon | joha@gmail.com</li>
+           <li>Paola Caballero | pao@gmail.com</li>
+           <li>John Cruz | john@gmail.com</li>
+       </ol>
+   </div>
+</footer>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
 </html>
