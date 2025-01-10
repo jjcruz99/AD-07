@@ -1,48 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <nav class="navBarra">
-      <div>
-        <a href="index.html" class="aBarra optionSelect">Inicio</a>
-        <a href="nosotros.html" class="aBarra">Nosotros</a>
-        <a href="contacto.html" class="aBarra">Contactanos</a>
-      </div>
-    </nav>
-    <div class="contenedor">
-      <div class="tarjeta">
-        <img src="img/OIP (1).jpeg" alt="Japon" />
-        <h2 class="titulo">Japon</h2>
-        <p>
-          Japón te espera: tierra de cerezos, samuráis y ciudades futuristas.
-        </p>
-      </div>
-      <div class="tarjeta">
-        <img src="img/OIP.jpeg" alt="Noruega" />
-        <h2 class="titulo">Noruega</h2>
-        <p>Donde las auroras bailan y los fiordos roban el aliento.</p>
-      </div>
-      <div class="tarjeta">
-        <img src="img/R.jpeg" alt="Bali" />
-        <h2 class="titulo">Bali</h2>
-        <p>Bali: un paraíso de templos, playas y atardeceres mágicos.</p>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Sobre Nosotros</title>
+</head>
+<body>
+<nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary fs-4 fw-lighter container-fluid" data-bs-theme="dark">
+  <div class="container-fluid ">
+    <a class="navbar-brand fs-3" href="#">Viajes con proposito</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
     </div>
-    <footer>
-      <h3>Viajes Divertidos</h3>
-      <div>
-        <ol>
-          <li>Brenda Cubillos | brenda@gmail.com</li>
-          <li>Johana Rincon | Joha@gmail.com</li>
-          <li>Paola Caballero | Pao@gmail.com</li>
-          <li>John Cruz | john@gmail.com</li>
-        </ol>
-      </div>
-    </footer>
-  </body>
+  </div>
+</nav>
+
+<main class="d-flex flex-column justify-content-center align-items-center vh-100">
+  <div class="card mb-4 shadow-sm" style="width: 100%; max-width: 500px;">
+    <div class="card-body">
+      <h5 class="card-title text-center mb-3">Contáctenos</h5>
+      <form action="#" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre completo" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-custom btn-sm w-100">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="card shadow-sm" style="width: 100%; max-width: 500px;">
+    <div class="card-body">
+      <h5 class="card-title text-center mb-3">Otros Medios de Contacto</h5>
+      <p class="card-text text-center">También puede comunicarse con nosotros a través de:</p>
+      <ul class="list-unstyled text-center">
+        <li><strong>WhatsApp:</strong> 22335566988</li>
+        <li><strong>Correo Electrónico:</strong> <a href="mailto:contactenos@viajesconproposito.com">contactenos@viajesconproposito.com</a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <h3>Viajes Con Propósito</h3>
+  <div>
+    <ol>
+      <li>Brenda Cubillos | brenda@gmail.com</li>
+      <li>Johana Rincon | joha@gmail.com</li>
+      <li>Paola Caballero | pao@gmail.com</li>
+      <li>John Cruz | john@gmail.com</li>
+    </ol>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
